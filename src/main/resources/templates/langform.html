@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+
+    <form action='postrequestlang' method='post'>
+        <input type='text' name='name'>
+            <select name='language' id='language-select'>
+                <option style=\"color:red\" value='english'>English</option>
+                <option style=\"color:blue\" value='spanish'>Spanish</option>
+                <option style=\"color:green\" value='french'>French</option>
+                <option style=\"color:orange\" value='japanese'>Japanese</option>
+                <option style=\"color:pink\" value='piglatin'>Pig Latin</option>
+            </select>
+        <input type='submit' value='Greet me!'>
+    </form>
+
+</body>
+</html>
